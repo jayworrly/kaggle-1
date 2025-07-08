@@ -1,0 +1,30 @@
+# Database Configuration (credentials from .env file)
+database:
+  name: "${DB_NAME}"
+  user: "${DB_USER}"
+  password: "${DB_PASSWORD}"
+  host: "${DB_HOST}"
+  port: "${DB_PORT}"
+
+# Dataset Configuration
+dataset:
+  name: "bismasajjad/global-ai-job-market-and-salary-trends-2025"
+  raw_file: "data/ai_job_dataset.csv"
+  cleaned_file: "data/ai_job_dataset_cleaned.csv"
+
+# Output Directories
+outputs:
+  plots: "outputs/plots"
+  models: "outputs/models"
+  reports: "outputs/reports"
+
+# Model Configuration
+models:
+  random_state: 42
+  test_size: 0.2
+  cv_folds: 5
+
+# Analysis Configuration
+analysis:
+  outlier_threshold: 1.5
+  cluster_n_components: 5 

@@ -1,0 +1,52 @@
+AI Job Market Dataset - Outlier Analysis Report
+============================================================
+
+1. OUTLIER DETECTION METHODS
+------------------------------
+• IQR Method: Uses Q1 - 1.5*IQR and Q3 + 1.5*IQR as bounds
+• Z-score Method: Uses |z-score| > 3 as threshold
+
+2. OUTLIER SUMMARY BY COLUMN
+------------------------------
+
+salary_usd:
+  IQR outliers: 483 (3.2%)
+  Z-score outliers: 203 (1.4%)
+  IQR bounds: [-44163.38, 260751.62]
+  Mean: 115348.97
+  Std: 60260.94
+
+remote_ratio:
+  IQR outliers: 0 (0.0%)
+  Z-score outliers: 0 (0.0%)
+  IQR bounds: [-150.00, 250.00]
+  Mean: 49.48
+  Std: 40.81
+
+years_experience:
+  IQR outliers: 0 (0.0%)
+  Z-score outliers: 0 (0.0%)
+  IQR bounds: [-10.00, 22.00]
+  Mean: 6.25
+  Std: 5.55
+
+job_description_length:
+  IQR outliers: 0 (0.0%)
+  Z-score outliers: 0 (0.0%)
+  IQR bounds: [-490.62, 3494.38]
+  Mean: 1503.31
+  Std: 576.13
+
+benefits_score:
+  IQR outliers: 0 (0.0%)
+  Z-score outliers: 0 (0.0%)
+  IQR bounds: [2.30, 12.70]
+  Mean: 7.50
+  Std: 1.45
+
+3. RECOMMENDATIONS
+------------------------------
+• Review outliers in salary_usd to understand high-paying positions
+• Check outliers in remote_ratio for unusual remote work arrangements
+• Investigate outliers in years_experience for data quality issues
+• Consider removing extreme outliers that may be data entry errors

@@ -1,0 +1,72 @@
+AI Job Market - Job Clustering Analysis Report
+============================================================
+
+1. CLUSTERING APPROACH
+--------------------
+• Feature engineering: Label encoding for categorical variables
+• Feature scaling: StandardScaler for numerical features
+• Model selection: Multiple clustering algorithms
+• Evaluation: Silhouette score, Calinski-Harabasz index, Davies-Bouldin index
+
+2. MODEL PERFORMANCE COMPARISON
+------------------------------
+
+K-Means:
+  Silhouette Score: 0.1708
+  Calinski-Harabasz Score: 2789.0004
+  Davies-Bouldin Score: 2.1258
+  Number of clusters: 2
+
+Agglomerative:
+  Silhouette Score: 0.1554
+  Calinski-Harabasz Score: 2302.8484
+  Davies-Bouldin Score: 2.2424
+  Number of clusters: 2
+
+Gaussian Mixture:
+  Silhouette Score: 0.1373
+  Calinski-Harabasz Score: 2500.7637
+  Davies-Bouldin Score: 2.3723
+  Number of clusters: 2
+
+3. BEST MODEL
+------------
+Model: K-Means
+Silhouette Score: 0.1708
+Number of clusters: 2
+
+4. CLUSTER PROFILES
+------------------
+
+Cluster 0:
+  Size: 9757 jobs (67.4%)
+  Average Salary: $81,078
+  Median Salary: $79,022
+  Average Experience: 2.9 years
+  Remote Ratio: 48.7%
+  Top Employment Type: FL
+  Top Company Size: S
+  Top Education: Associate
+
+Cluster 1:
+  Size: 4713 jobs (32.6%)
+  Average Salary: $166,073
+  Median Salary: $161,082
+  Average Experience: 12.2 years
+  Remote Ratio: 51.0%
+  Top Employment Type: FT
+  Top Company Size: L
+  Top Education: Master
+
+5. CLUSTER INTERPRETATION
+-------------------------
+• Clusters represent different job market segments
+• Each cluster has distinct characteristics in terms of salary, experience, and work arrangements
+• Understanding cluster profiles helps in targeted job search and recruitment
+
+6. RECOMMENDATIONS
+---------------
+• Use cluster analysis for market segmentation
+• Apply insights for targeted recruitment strategies
+• Consider cluster characteristics for salary benchmarking
+• Regular re-clustering with new data

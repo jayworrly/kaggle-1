@@ -1,0 +1,60 @@
+AI Job Market Dataset - Exploratory Data Analysis Report
+============================================================
+
+1. DATASET OVERVIEW
+--------------------
+Total rows: 15000
+Total columns: 19
+Memory usage: 12.32 MB
+
+2. MISSING VALUES
+--------------------
+No missing values found in the dataset.
+
+3. DUPLICATE ROWS
+--------------------
+Duplicate rows: 0
+
+4. CATEGORICAL VARIABLES
+--------------------
+experience_level: 4 unique values
+employment_type: 4 unique values
+company_size: 3 unique values
+education_required: 4 unique values
+
+5. NUMERICAL VARIABLES SUMMARY
+--------------------
+salary_usd:
+  Mean: 115348.97
+  Median: 99705.00
+  Std: 60260.94
+  Min: 32519
+  Max: 399095
+
+remote_ratio:
+  Mean: 49.48
+  Median: 50.00
+  Std: 40.81
+  Min: 0
+  Max: 100
+
+years_experience:
+  Mean: 6.25
+  Median: 5.00
+  Std: 5.55
+  Min: 0
+  Max: 19
+
+job_description_length:
+  Mean: 1503.31
+  Median: 1512.00
+  Std: 576.13
+  Min: 500
+  Max: 2499
+
+benefits_score:
+  Mean: 7.50
+  Median: 7.50
+  Std: 1.45
+  Min: 5.0
+  Max: 10.0

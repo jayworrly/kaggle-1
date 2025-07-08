@@ -1,8 +1,3 @@
 kaggle.json
 .env
-data/
-*.joblib
-*.png
-*.csv
-cluster_analysis_plots/
-entry_level_analysis/
+

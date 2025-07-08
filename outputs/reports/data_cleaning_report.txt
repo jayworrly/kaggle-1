@@ -1,0 +1,23 @@
+AI Job Market Dataset - Data Cleaning Report
+============================================================
+
+1. CLEANING SUMMARY
+--------------------
+Original dataset size: 15000 rows
+Final dataset size: 14470 rows
+Rows removed: 530 (3.5%)
+
+2. CLEANING STEPS APPLIED
+-------------------------
+• Removed duplicate rows
+• Removed rows with missing values
+• Cleaned salary data (removed negative and extreme values)
+• Cleaned experience data (removed negative and extreme values)
+• Removed outliers using IQR method for key numerical columns
+
+3. DATA QUALITY IMPROVEMENTS
+------------------------------
+• Improved data consistency
+• Removed potential data entry errors
+• Enhanced model training reliability
+• Reduced noise in the dataset

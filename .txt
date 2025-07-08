@@ -1,0 +1,26 @@
+a) Which data set will you analyze for the term paper? 
+For my term paper, I will analyze a publicly available dataset from Kaggle.com titled "AI Job Dataset." This data set contains information on 15,000 job postings related to artificial intelligence roles. It includes 19 variables (columns) such as job ID, job title, salary (in USD and other currencies), experience level, employment type, company location, company size, employee residence, remote work ratio, required skills, education required, years of experience, industry, posting and application dates, job description length, benefits score, and company name. To enhance the analytical value, I may incorporate secondary datasets such as:
+•	Industry salary benchmarks from sources like Glassdoor or Payscale, to compare AI job salaries with broader tech industry trends.
+•	Economic or labor market data from the U.S. Bureau of Labor Statistics or Eurostat, to contextualize job growth and demand.
+•	Company financials or size data from business registries, to analyze how company characteristics relate to job offerings.
+b) What will be the goal of your analysis?
+The goal of my analysis is to provide business intelligence insights into the AI job market. Specifically, I aim to:
+•	Identify key factors that influence AI job salaries and benefits across different regions, industries, and company sizes.
+•	Predict salary ranges for new AI job postings based on job requirements and company attributes.
+•	Benchmark companies’ AI job offerings against industry standards to help businesses attract top talent.
+•	Offer recommendations for job seekers and employers on optimizing job postings and compensation packages.
+This analysis will support business decision-making for HR departments, recruiters, and job seekers by highlighting trends, gaps, and opportunities in the AI employment landscape.
+c) Which technologies and sources will you use?
+•	Technology to create a data model/dimensional model:
+I will use ERDplus to design an entity-relationship diagram (ERD) for the dataset, mapping out the relationships between job postings, companies, and other relevant entities.
+•	Technology to integrate data sets:
+I plan to use Microsoft Excel and Python (with pandas) for initial data cleaning and integration. For more advanced integration and visualization, I will use Power Bi.
+Technology to create descriptive and predictive analytics:
+Descriptive analytics will be performed using Python (pandas, matplotlib, seaborn) and Power BI/Tableau for dashboards. Predictive analytics, such as salary prediction, will be implemented using Python’s scikit-learn library.
+•	Technology for prescriptive models:
+For prescriptive analytics, I may use Python (with libraries such as scipy or ortools) to suggest optimal job posting strategies or compensation packages based on predictive model outputs.
+•	Sources to research/improve analysis:
+•	Kaggle datasets for additional job market data
+•	Glassdoor, Payscale, and LinkedIn for salary and job trend benchmarks
+•	U.S. Bureau of Labor Statistics, Eurostat for labor market context
+•	Company websites and business registries for company-specific data
